@@ -1,12 +1,25 @@
 import React from "react";
+import { SideNav, Button, Icon, Modal } from "react-materialize";
 
 const Schedule = () => (
   <div>
-    <ul>
-      <li>6/5 @ Evergreens</li>
-      <li>6/8 vs Kickers</li>
-      <li>6/14 @ United</li>
-    </ul>
+    <div className="testA">DDD</div>
+    <Button waves="light" className="button">
+      EDIT ME<Icon left>save</Icon>
+    </Button>
+    <Modal
+      header="Modal Header"
+      trigger={
+        <Button waves="light">
+          OR ME!<Icon right>insert_chart</Icon>
+        </Button>
+      }
+    >
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </Modal>
   </div>
 );
 

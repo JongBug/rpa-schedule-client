@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./common/Header";
-import Main from "./common/Main";
-import "../css/App.css";
+import SideNavConfig from "./common/SideNavConfig";
+import "../styles/scss/rpa-client.scss";
 
 const App = () => (
   <div>
     <Header />
-    <Main />
+    <SideNavConfig />
   </div>
 );
 
